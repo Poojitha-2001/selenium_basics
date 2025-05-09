@@ -19,7 +19,7 @@ public class Ex_33 {
         // /Users/promode/IdeaProjects/LearningSeleniumATB10x
         String path="/src/test/java/com/poojitha/file_upload/Testdata.txt";
 
-        uploadFileInput.sendKeys(working_dir+path );
+        uploadFileInput.sendKeys(working_dir+path);
         driver.findElement(By.name("submit")).click();
 
 

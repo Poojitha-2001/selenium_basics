@@ -26,9 +26,9 @@ public class Ex_29 {
 button .click() ;
 //page down page up//scroll up and scroll down
         Actions actions =new Actions(driver);
-        actions.sendKeys(Keys.PAGE_DOWN ) .sendKeys(Keys .PAGE_DOWN ).build() .perform() ;
-        Thread .sleep(3000) ;
-        actions.sendKeys(Keys.PAGE_UP ) .sendKeys(Keys.PAGE_UP ).build() .perform() ;
+        actions.keyDown (Keys.PAGE_DOWN ) .keyUp(Keys.PAGE_DOWN). keyDown(Keys .PAGE_DOWN ).keyUp(Keys.PAGE_DOWN).build() .perform() ;
+        //Thread .sleep(3000) ;
+       // actions.sendKeys(Keys.PAGE_UP ) .sendKeys(Keys.PAGE_UP ).build() .perform() ;
 
         // driver.quit()
 }}
